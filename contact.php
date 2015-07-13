@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Simple Yoga - Contact</title>
+	<meta http-equiv="generator" content="Notepad++" />
+	<meta name="created" content="May 2011" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Jonathan Holvey" />
+	
+	<?php include("resources.php"); ?>
+	<style type="text/css">#contactLink {color:#2E5963 !important;cursor:default}</style>
+</head>
+<body>
+	<?php include("header.php"); ?>
+	
+	<div class="content">
+		<div class="text">
+			<div class="title">Contact me</div>
+			<p>If you would like to book a yoga class or discuss what sort of yoga will suit you please get in touch by calling or emailing me using the details below.</p>
+			<p style="text-align:center;margin-bottom:5px"><span class="contact">01225 722787</span> or <span class="contact">07807 464215</span></p>
+			<p style="text-align:center"><a class="contact" href="mailto:laura@simple-yoga.co.uk">laura@simple-yoga.co.uk</a></p>
+		</div>
+		<div style="text-align:center"><img src="images/childsPose.png" title="Child's Pose" alt=""/></div>
+	</div>
+	
+	<?php include("footer.php"); ?>
+</body>
+</html>
