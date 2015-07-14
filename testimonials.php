@@ -26,10 +26,10 @@
 	</div>
 	<script>
 		$(document).ready(function() {
-			$(".rule").last().hide()
+			$(".rule").last().hide();
 			$(".testimonial").css("width","70%");
 			$(".testimonial:odd").css({"text-align":"right","margin-left":"30%"});
-		})
+		});
 	</script>
 	<?php include("footer.php"); ?>
 </body>

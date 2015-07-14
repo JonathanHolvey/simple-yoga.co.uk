@@ -28,15 +28,15 @@
 		<p>Private class or invite a few friends to join you. Laughter included!</p-->
 		<!--div class="title">June Face Yoga Workshop</div>
 		<p>Around my kitchen table on 25th June, 10:00 AM until noon.</p><p>Spaces are limited so please call to book in advance.</p><p>&pound;17.50 for two hours.</p-->
-		<div class="title">New class at Limpley Stoke Village Hall</div>
-		<p>Starting 7 January 2015</p>
+		<div class="title">Yoga class at Limpley Stoke Village Hall</div>
 		<p>Come along for a weekly class in Limpley Stoke, from 9:30 to 11:00&nbsp;AM at the Village Hall. We focus on improving suppleness and balance, reducing stress and increasing energy levels. The classes are easy to understand, allowing you to work at your own pace and ability.</p>
-		<p>Your first class costs <b>&pound;5</b>, with drop in classes priced at <b>&pound;9</b>. A course of four classes can be booked for only <b>&pound;30</b>. Please remember to bring along a mat or rug and a blanket. Call or email for more details.
+		<p class="offer">Your first class costs <b>&pound;5</b>, and during August 2015 you can bring a friend for free!</p>
+		<p>Drop in classes are priced at <b>&pound;9</b>, while a course of four classes can be booked for only <b>&pound;30</b>. Please remember to bring along a mat or rug and a blanket. Call or email for more details.
 		<p>Please note that parking at the hall is limited, however additional parking can be found just up the hill at the Rose and Crown.</p>
 		<div class="title">One to One Yoga Class</div>
 		<p>In my home or garden (weather permitting) or your home.</p>
 		<p>Suitable for beginners or anyone wanting a simple, gentle class. Adapted to your own abilities and needs. Gentle stretching, moving every part of your body from the tips of your toes to your facial muscles. Working with the breath, we always end with a peaceful guided relaxation which allows you to fully relax and let go, leaving you feeling very peaceful.</p>
-		<p>&pound;20 for each hour long session, or book a course of six for only &pound;100.</p>
+		<p><b>&pound;20</b> for each hour long session, <b>&pound;27</b> for an hour and a half, or book a course of six one hour sessions for only <b>&pound;100</b>.</p>
  		<div class="title">Yoga for Fatigue</div>
 		<p>An extremely gentle class  that could help with <b><i>Chronic Fatigue Syndrome</i></b>, <b><i>M.E.</i></b>, <b><i>Fibromyalgia</i></b>, <b><i>M.S.</i></b>, <b><i>Arthritis</i></b>, <b><i>Stress</i></b> or any other illness that has left you feeling fatigued.</p>
 		<p>I have personal experience of chronic fatigue in my family and I am fully aware of how this can impact on your life. Having found how helpful yoga is for this condition, I trained with Fiona Agombar in London to teach Yoga Therapy for M.E., Chronic Fatigue Syndrome and Chronic Illness.</p>
