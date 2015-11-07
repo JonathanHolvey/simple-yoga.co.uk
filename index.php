@@ -20,7 +20,7 @@
 		<p>Around my kitchen table on 25th June, 10:00 AM until noon. Spaces are limited so please call to book in advance.<br/>&pound;17.50 for two hours. <a href="classes.php">Click her for more information</a></p-->
 		<div class="text" style="width:325px">
 			<div class="title">Yoga classes</div>
-			<p class="offer">Limpley Stoke Village Hall<br/>Wednesdays 9:30 to 11:00&nbsp;AM.<br/>Running throughout the summer.<br/><a href="classes.php">Find out more</a></p>
+			<p class="offer">Limpley Stoke Village Hall<br/>Wednesdays 9:30 to 11:00&nbsp;AM.<br/><a href="classes">Find out more</a></p>
 			<div class="title">Gentle, relaxing, restoring</div>
 			<p>Simple yoga is a flow of gentle stretching, relaxing, restoring postures. It helps to reduce tension, improve suppleness and balance, as well as increasing energy levels and strength.</p>
 			<p>Weaving yoga, energy and mindfulness techniques into each class, we always finish with a gentle nurturing relaxation.</p>

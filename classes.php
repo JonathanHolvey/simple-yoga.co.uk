@@ -29,9 +29,10 @@
 		<!--div class="title">June Face Yoga Workshop</div>
 		<p>Around my kitchen table on 25th June, 10:00 AM until noon.</p><p>Spaces are limited so please call to book in advance.</p><p>&pound;17.50 for two hours.</p-->
 		<div class="title">Yoga class at Limpley Stoke Village Hall</div>
-		<p>Come along for a weekly class in Limpley Stoke, from 9:30 to 11:00&nbsp;AM at the Village Hall. We focus on improving suppleness and balance, reducing stress and increasing energy levels. The classes are easy to understand, allowing you to work at your own pace and ability.</p>
+		<p>Come along for a weekly class in Limpley Stoke, from 9:30 to 11:00&nbsp;AM at the Village Hall, just off the A36 (<a href="https://www.google.com/maps/place/Limpley+Stoke+Village+Hall/@51.3445205,-2.3207854,15.5z/data=!4m6!1m3!3m2!1s0x0000000000000000:0xf2aa6ec9c03a336b!2sLimpley+Stoke+Village+Hall!3m1!1s0x0000000000000000:0xf2aa6ec9c03a336b">click here for map</a>).</p>
+		<p>We focus on improving suppleness and balance, reducing stress and increasing energy levels. The classes are easy to understand, allowing you to work at your own pace and ability.</p>
 		<p class="offer">Your first class costs <b>&pound;5</b>, and during August 2015 you can bring a friend for free!</p>
-		<p>Drop in classes are priced at <b>&pound;9</b>, while a course of four classes can be booked for only <b>&pound;30</b>. Please remember to bring along a mat or rug and a blanket. Call or email for more details.
+		<p>Drop in classes are priced at <b>&pound;9</b>, while a course of four consecutive classes can be booked for only <b>&pound;30</b>. Please remember to bring along a mat or rug and a blanket. Call or email for more details.
 		<p>Please note that parking at the hall is limited, however additional parking can be found just up the hill at the Rose and Crown.</p>
 		<div class="title">One to One Yoga Class</div>
 		<p>In my home or garden (weather permitting) or your home.</p>
