@@ -5,16 +5,18 @@
 	Cream:			F8E8C5
 	Brown:			80663E */
 
-body,html {
+body,
+html {
 	margin:0;
 	padding:0;
-	font-family:"Arial",sans-serief;
+	font-family: "Cabin" "Arial" sans-serif;
 	font-size:15px;
 }
 html { 
 	overflow-y:scroll;
 }
-html,body {
+html,
+body {
 	height:100%;
 }
 a {
@@ -49,7 +51,8 @@ a:hover {
 	margin-left:-20px;
 	z-index:-1;
 }
-#footer,#footer a {
+#footer,
+#footer a {
 	font-size:11px;
 	color:white;
 }
@@ -96,7 +99,8 @@ hr {
 	font-size:160%;
 	clear:both;
 }
-p,li {
+p,
+li {
 	color:#80663E;
 	margin:5px 0 15px 0;
 	line-height:25px;
@@ -111,20 +115,22 @@ p,li {
 	margin:30px 0;
 	font-style:italic;
 }
-.quote .open,.quote .close {
+.quote .open,
+.quote .close {
 	color:#83DAEF;
-	font-size:800%;
+	font-size:600%;
 	vertical-align:bottom;
 	position:relative;
 	font-style:normal;
+	font-family: "Times" serif;
 }
 .quote .open {
-	top:25px;
-	padding-right:5px;
+	top:15px;
+	padding-right:10px;
 }
 .quote .close {
-	top:30px;
-	padding-left:5px;
+	top:20px;
+	padding-left:8px;
 }
 .cite {
 	font-size:80%;
@@ -138,8 +144,13 @@ p.offer::after {
 	border-radius: 3px;
 	color: white;
 	font-size: 80%;
-	padding: 2px 8px 0 8px;
+	padding: 0 8px;
 	margin-left: 10px;
 	position: relative;
 	top: -1px;
+	letter-spacing: 0.1em;
+}
+.testimonial {
+	margin: 0 15%;
+	text-align: center;
 }
