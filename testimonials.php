@@ -10,7 +10,19 @@
 	<meta name="author" content="Jonathan Holvey" />
 	
 	<?php include("resources.php"); ?>
-	<style type="text/css">#testimonialsLink {color:#2E5963 !important;cursor:default}</style>
+	<style type="text/css">
+		#testimonialsLink {
+			color:#2E5963 !important;
+			cursor:default
+		}
+		.testimonial,
+		#content hr {
+			width: 70%;
+		}
+		#content hr:last-child {
+			display: none;
+		}
+	</style>
 </head>
 <body>
 	<?php include("header.php"); ?>
@@ -24,13 +36,6 @@
 			}
 		?>
 	</div>
-	<script>
-		$(document).ready(function() {
-			$(".rule").last().hide();
-			$(".testimonial").css("width","70%");
-			$(".testimonial:odd").css({"text-align":"right","margin-left":"30%"});
-		});
-	</script>
 	<?php include("footer.php"); ?>
 </body>
 </html>
