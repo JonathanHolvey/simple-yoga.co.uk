@@ -150,8 +150,8 @@ li {
 	margin: 2em 0;
 	font-style: italic;
 }
-.quote .open,
-.quote .close {
+.quote::before,
+.quote::after {
 	color: #83DAEF;
 	font-size: 600%;
 	line-height: 0.28;
@@ -160,13 +160,15 @@ li {
 	font-style: normal;
 	font-family: "Times" serif;
 }
-.quote .open {
+.quote::before {
 	top: 0.17em;
 	padding-right: 0.11em;
+	content: "\201C";
 }
-.quote .close {
+.quote::after {
 	top: 0.22em;
 	padding-left: 0.089em;
+	content: "\201D";
 }
 .cite {
 	font-size: 80%;
