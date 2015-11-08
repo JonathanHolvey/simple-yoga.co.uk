@@ -23,7 +23,7 @@
 			<p>This is the inspiration for my classes in Simple Yoga.</p>
 			<p><i>- Laura Holvey</i></p>
 		</div>
-		<img class="page-image column third right"src="images/portrait.jpg" alt="" style="max-width: 255px">
+		<img class="page-image column third right"src="images/portrait.jpg" alt="" style="max-width:255px">
 		<h2>Teaching Simple Yoga</h2>
 		<p>I trained to teach yoga with Ganga White and Tracey Rich at the White Lotus Foundation in California. This complimented my desire to teach a non branded type of yoga which deals with the whole person, helping them to relax and enjoy their yoga experience.</p>
 		<p>Simple Yoga: because after all the classes and styles of yoga I have practiced I wanted to pare it down, simplify. Nothing complicated, easy to follow and do at your own pace.</p>

@@ -4,4 +4,5 @@
 <script type="text/javascript" src="script/jquery.js"></script>
 <!-- <script type="text/javascript" src="script/common.js"></script> -->
 <link rel="shortcut icon" href="images/favicon.ico" />
-<?php include("script/printQuote.php") ?>
+<?php include("script/common.php") ?>
+<base href="<?= findBase() ?>"/>

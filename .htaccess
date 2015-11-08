@@ -2,3 +2,11 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+
+# remove .php file extensions
+RewriteCond %{THE_REQUEST} /(classes|benefits|about|contact)\.php [NC]
+RewriteRule ^(.*).php$ $1 [R=301,NC,L]
+
+# redirect to php files
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+RewriteBase /
