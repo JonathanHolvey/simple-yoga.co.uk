@@ -47,10 +47,9 @@ a:hover {
 	padding-bottom: 12em;
 	overflow: auto;
 }
-#footer {
+#footer-image {
 	position: absolute;
 	bottom: 0;
-	text-align: center;
 	width: 100%;
 	background: url("images/background.jpg");
 	background-position: center;
@@ -59,21 +58,33 @@ a:hover {
 	margin-left: -1.33em;
 	z-index: -1;
 }
-#footer div,
-#footer div a {
-	color: white;
-}
-#footer div {
+#footer {
+	text-align: center;
+	width: 100%;
 	font-size: 75%;
-	opacity: 0.4;
 	cursor: default;
 	position: absolute;
-	bottom: 0.67em;
-	width: 100%;
-	margin: 0 auto;
+	bottom: 0.5em;
+	left: 0;
+}
+#footer div {
+	opacity: 0.8;
+	display: inline-block;
+	padding: 0.3em 0;
+	border-radius: 1em;
 }
 #footer div:hover {
-	opacity: 0.8;
+	background: gray;
+	opacity: 1;
+}
+#footer,
+#footer a {
+	color: white;
+}
+#footer span {
+	white-space: nowrap;
+	display: inline-block;
+	margin: 0 1em;
 }
 #logo {
 	display: block;

@@ -1,5 +1,11 @@
 	</div> <!-- close content -->
-	<div id="footer"><div><a href="http://www.rocketchilli.com">Website by Rocket Chilli</a>&emsp;&#8226;&emsp;&copy; Copyright <?php ?> Laura Holvey &amp; Rocket Chilli - All rights reserved</div></div>
+	<div id="footer-image"></div>
+	<div id="footer">
+		<div>
+			<span><a href="http://rocketchilli.com">Website by Rocket Chilli</a></span>
+			<span>&copy; <?= date("Y") ?> Laura Holvey - All rights reserved</span>
+		</div>
+	</div>
 </div> <!-- close container -->
 <!-- google analytics tracking code -->
 <script type="text/javascript">
