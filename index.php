@@ -15,22 +15,15 @@
 <body>
 	<?php include("header.php"); ?>
 	
-	<div class="content">
-		<!--div class="title"><span style="color:gray">News:</span> June Face Yoga Workshop</div>
-		<p>Around my kitchen table on 25th June, 10:00 AM until noon. Spaces are limited so please call to book in advance.<br/>&pound;17.50 for two hours. <a href="classes.php">Click her for more information</a></p-->
-		<div class="text half">
-			<div class="title">Yoga classes</div>
-			<p class="offer">Limpley Stoke Village Hall<br/>Wednesdays 9:30 to 11:00&nbsp;AM.<br/><a href="classes">Find out more</a></p>
-			<div class="title">Gentle, relaxing, restoring</div>
-			<p>Simple yoga is a flow of gentle stretching, relaxing, restoring postures. It helps to reduce tension, improve suppleness and balance, as well as increasing energy levels and strength.</p>
-			<p>Weaving yoga, energy and mindfulness techniques into each class, we always finish with a gentle nurturing relaxation.</p>
-<!-- 			<div class="title">Simple Yoga for everyday life</div>
-			<p>We always end with a gentle nurturing relaxation. Something simple - that we can take home with us and use in our daily lives.</p>
- -->			
-		</div>
-		<img class="page-image half" src="images/fullSpinalTwist.png" title="Full Spinal Twist" alt=""/>
-		<div class="text"><?php printQuote() ?></div>
+	<div class="text half">
+		<div class="title">Yoga classes</div>
+		<p class="offer">Limpley Stoke Village Hall<br/>Wednesdays 9:30 to 11:00&nbsp;AM.<br/><a href="classes">Find out more</a></p>
+		<div class="title">Gentle, relaxing, restoring</div>
+		<p>Simple yoga is a flow of gentle stretching, relaxing, restoring postures. It helps to reduce tension, improve suppleness and balance, as well as increasing energy levels and strength.</p>
+		<p>Weaving yoga, energy and mindfulness techniques into each class, we always finish with a gentle nurturing relaxation.</p>
 	</div>
+	<img class="page-image half" src="images/fullSpinalTwist.png" title="Full Spinal Twist" alt=""/>
+	<div class="text"><?php printQuote() ?></div>
 	
 	<?php include("footer.php"); ?>
 </body>
