@@ -27,24 +27,24 @@ a:hover {
 	color: #83DAEF !important;
 }
 #container {
-	width: 800px;
+	width: 53.33em;
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 1.33em;
 	min-height: 100%;
 	position: relative;
 	box-sizing: border-box;
 }
 #header {
 	position: relative;
-	padding: 10px 0;
+	padding: 0.67em 0;
 }
 #header a {
 	display: inline-block;
-	margin: 0 15px;
+	margin: 0 1em;
 }
 #content {
-	padding-bottom: 180px;
+	padding-bottom: 12em;
 	overflow: auto;
 }
 #footer {
@@ -54,21 +54,21 @@ a:hover {
 	width: 100%;
 	background: url("images/background.jpg");
 	background-position: center;
-	height: 20px;
-	padding-top: 400px;
-	margin-left: -20px;
+	height: 1.33em;
+	padding-top: 26.67em;
+	margin-left: -1.33em;
 	z-index: -1;
 }
-#footer,
-#footer a {
-	font-size: 11px;
+#footer div,
+#footer div a {
 	color: white;
 }
 #footer div {
+	font-size: 75%;
 	opacity: 0.4;
 	cursor: default;
 	position: absolute;
-	bottom: 10px;
+	bottom: 0.67em;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -86,31 +86,30 @@ hr {
 	height: 1px;
 	width: 100%;
 	display: block;
-	margin: 10px 0;
+	margin: 0.67em 0;
 }
 #navBar {
 	text-align: center;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 0.067em;
 	cursor: default;
-	font-size: 18px;
-	margin-bottom: 10px;
+	font-size: 120%;
+	margin-bottom: 0.67em;
 }
 .text {
-	float: left;
 	clear: left;
 }
 img.page-image  {
 	display: block;
-	float: left;
-	margin-bottom: 15px;
-	/*margin-left: 10px;*/
+	margin-bottom: 1em;
 }
 .text.half {
 	width: 45%;
+	float: left;
 }
 img.page-image.half {
 	width: 55%;
+	float: left;
 }
 .title {
 	color: #83DAEF;
@@ -120,8 +119,8 @@ img.page-image.half {
 p,
 li {
 	color: #80663E;
-	margin: 5px 0 15px 0;
-	line-height: 25px;
+	margin: 0.33em 0 1em 0;
+	line-height: 1.66;
 }
 .contact {
 	color: #83DAEF;
@@ -130,42 +129,43 @@ li {
 .quote {
 	font-size: 90%;
 	color: gray !important;
-	margin: 30px 0;
+	margin: 2em 0;
 	font-style: italic;
 }
 .quote .open,
 .quote .close {
 	color: #83DAEF;
 	font-size: 600%;
+	line-height: 0.28;
 	vertical-align: bottom;
 	position: relative;
 	font-style: normal;
 	font-family: "Times" serif;
 }
 .quote .open {
-	top: 15px;
-	padding-right: 10px;
+	top: 0.17em;
+	padding-right: 0.11em;
 }
 .quote .close {
-	top: 20px;
-	padding-left: 8px;
+	top: 0.22em;
+	padding-left: 0.089em;
 }
 .cite {
 	font-size: 80%;
-	margin-top: -25px;
+	margin-top: -1.9em;
 }
 p.offer::after {
 	display: inline-block;
 	text-transform: uppercase;
 	background: #C45656;
 	content: "Special Offer";
-	border-radius: 3px;
+	border-radius: 0.25em;
 	color: white;
 	font-size: 80%;
-	padding: 0 8px;
-	margin-left: 10px;
+	padding: 0 0.67em;
+	margin-left: 0.83em;
 	position: relative;
-	top: -1px;
+	top: -0.083em;
 	letter-spacing: 0.1em;
 }
 .testimonial {
@@ -173,18 +173,18 @@ p.offer::after {
 	text-align: center;
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 43.33em) {
 	.text.half {
 		width: 100%;
 	}
 	img.page-image.half {
 		width: 100%;
-		max-width: 400px;
+		max-width: 26.67em;
 		margin-left: auto;
 		margin-right: auto;
 		float: none;
 	}
 	#header a {
-		margin: 0 10px;
+		margin: 0 0.67em;
 	}
 }
