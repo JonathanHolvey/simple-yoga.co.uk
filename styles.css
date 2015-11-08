@@ -96,20 +96,28 @@ hr {
 	font-size: 120%;
 	margin-bottom: 0.67em;
 }
-.text {
+.page-text {
 	clear: left;
 }
-img.page-image  {
+.page-image  {
 	display: block;
 	margin-bottom: 1em;
 }
-.text.half {
-	width: 45%;
+.column {
 	float: left;
+	box-sizing: border-box;
 }
-img.page-image.half {
-	width: 55%;
-	float: left;
+.column.half {
+	width: 50%;
+}
+.column.third {
+	width: 33.33%;
+}
+.column.two-thirds {
+	width: 66.67%;
+}
+.page-text.column.left {
+	padding-right: 0.67em;
 }
 .title {
 	color: #83DAEF;
@@ -177,10 +185,10 @@ p.offer::after {
 }
 
 @media all and (max-width: 43.33em) {
-	.text.half {
+	.page-text {
 		width: 100%;
 	}
-	img.page-image.half {
+	.page-image {
 		width: 100%;
 		max-width: 26.67em;
 		margin-left: auto;

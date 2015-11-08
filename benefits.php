@@ -15,7 +15,7 @@
 <body>
 	<?php include("header.php"); ?>
 	
-	<div class="text" style="width:350px">
+	<div class="page-text column half left">
 		<div class="title">Simple Yoga helps you:</div>
 		<ul>
 			<li>Stretch, tone and strengthen muscles</li>				
@@ -30,11 +30,9 @@
 			<li>Feel inner calm</li>				
 			<li>Relax and enjoy life</li>
 		</ul>
-		<?php printQuote() ?>
 	</div>
-	<div class="image">
-		<img src="images/cross-leggedPose.png" title="Cross-legged Pose" alt=""/>
-	</div>
+	<img class="page-image column half right" src="images/cross-leggedPose.png" title="Cross-legged Pose" alt=""/>
+	<div class="text"><?php printQuote() ?></div>
 	
 	<?php include("footer.php"); ?>
 </body>

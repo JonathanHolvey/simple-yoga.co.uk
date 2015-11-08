@@ -15,15 +15,15 @@
 <body>
 	<?php include("header.php"); ?>
 	
-	<div class="text half">
+	<div class="page-text column half left">
 		<div class="title">Yoga classes</div>
 		<p class="offer">Limpley Stoke Village Hall<br/>Wednesdays 9:30 to 11:00&nbsp;AM.<br/><a href="classes">Find out more</a></p>
 		<div class="title">Gentle, relaxing, restoring</div>
 		<p>Simple yoga is a flow of gentle stretching, relaxing, restoring postures. It helps to reduce tension, improve suppleness and balance, as well as increasing energy levels and strength.</p>
 		<p>Weaving yoga, energy and mindfulness techniques into each class, we always finish with a gentle nurturing relaxation.</p>
 	</div>
-	<img class="page-image half" src="images/fullSpinalTwist.png" title="Full Spinal Twist" alt=""/>
-	<div class="text"><?php printQuote() ?></div>
+	<img class="page-image column half right" src="images/fullSpinalTwist.png" title="Full Spinal Twist" alt=""/>
+	<div class="page-text"><?php printQuote() ?></div>
 	
 	<?php include("footer.php"); ?>
 </body>
