@@ -17,7 +17,7 @@
 	
 	<div class="content">
 		<div class="page-text">
-			<div class="title">Contact me</div>
+			<h2>Contact me</h2>
 			<p>If you would like to book a yoga class or discuss what sort of yoga will suit you please get in touch by calling or emailing me using the details below.</p>
 			<p style="text-align:center;margin-bottom:5px"><span class="contact">01225 722787</span> or <span class="contact">07807 464215</span></p>
 			<p style="text-align:center"><a class="contact" href="mailto:laura@simple-yoga.co.uk">laura<span style="font-family:Arial sans-serif">@</span>simple-yoga.co.uk</a></p>

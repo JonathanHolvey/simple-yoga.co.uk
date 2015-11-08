@@ -16,14 +16,14 @@
 	<?php include("header.php"); ?>
 	
 	<div class="page-text column half left">
-		<div class="title">Simple Yoga helps you:</div>
+		<h2>Simple Yoga helps you:</h2>
 		<ul>
 			<li>Stretch, tone and strengthen muscles</li>				
 			<li>Increase movement in your joints and spine</li>				
 			<li>Improve balance and posture</li>				
 			<li>Release tension in body and mind</li>
 		</ul>
-		<div class="title">Which helps you to:</div>
+		<h2>Which helps you to:</h2>
 		<ul>
 			<li>Move freely</li>				
 			<li>Sleep better</li>				

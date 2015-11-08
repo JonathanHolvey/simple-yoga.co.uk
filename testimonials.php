@@ -28,7 +28,7 @@
 	<?php include("header.php"); ?>
 	
 	<div class="content">
-		<div class="title">What people think of Simple Yoga</div>
+		<h2>What people think of Simple Yoga</h2>
 		<?php 
 			foreach ($testimonials as $quote) {
 				printQuote($quote);

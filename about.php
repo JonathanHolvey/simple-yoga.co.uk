@@ -17,14 +17,14 @@
 	
 	<div class="content">
 		<div class="page-text column two-thirds left">
-			<div class="title">About Simple Yoga</div>
+			<h2>About Simple Yoga</h2>
 			<p>I have practiced yoga all my adult life, in fact over 35 years. As I have grown older it has evolved into something much simpler, a relaxing, strengthening set of postures that allow me to keep supple and continue to do all the things that are important to me.</p>
 			<p>Yoga has been a constant, always there; helping me to cope in times of crisis, deal with health issues, keeping me positive and helping me enjoy the moment and not worry about the past or future.</p>
 			<p>This is the inspiration for my classes in Simple Yoga.</p>
 			<p><i>- Laura Holvey</i></p>
 		</div>
 		<img class="page-image column third right"src="images/portrait.jpg" alt="" style="max-width: 255px">
-		<div class="title">Teaching Simple Yoga</div>
+		<h2>Teaching Simple Yoga</h2>
 		<p>I trained to teach yoga with Ganga White and Tracey Rich at the White Lotus Foundation in California. This complimented my desire to teach a non branded type of yoga which deals with the whole person, helping them to relax and enjoy their yoga experience.</p>
 		<p>Simple Yoga: because after all the classes and styles of yoga I have practiced I wanted to pare it down, simplify. Nothing complicated, easy to follow and do at your own pace.</p>
 	</div>
