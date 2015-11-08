@@ -194,9 +194,11 @@ p.offer::after {
 }
 
 @media all and (max-width: 43.33em) {
+	.page-text.column,
 	.page-text {
 		width: 100%;
 	}
+	.page-image.column,
 	.page-image {
 		width: 100%;
 		max-width: 26.67em;
