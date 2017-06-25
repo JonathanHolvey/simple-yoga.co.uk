@@ -1,9 +1,0 @@
-RewriteEngine On
-
-# remove .php file extensions
-RewriteCond %{THE_REQUEST} /(classes|benefits|about|contact)\.php [NC]
-RewriteRule ^(.*).php$ $1 [R=301,NC,L]
-
-# redirect to php files
-RewriteRule ^([^.]+)$ $1.php [NC,L]
-RewriteBase /simple-yoga.co.uk/
