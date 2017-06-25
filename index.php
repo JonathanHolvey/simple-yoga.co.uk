@@ -16,11 +16,14 @@
 	<?php include("header.php"); ?>
 	
 	<div class="page-text column half left">
-		<h2>Yoga classes</h2>
-		<p class="offer">Limpley Stoke Village Hall<br/>Wednesdays 9:30 to 11:00&nbsp;AM.<br/><a href="classes">Find out more</a></p>
 		<h2>Gentle, relaxing, restoring</h2>
 		<p>Simple yoga is a flow of gentle stretching, relaxing, restoring postures. It helps to reduce tension, improve suppleness and balance, as well as increasing energy levels and strength.</p>
 		<p>Weaving yoga, energy and mindfulness techniques into each class, we always finish with a gentle nurturing relaxation.</p>
+
+		<h2>Yoga classes</h2>
+		<p>One to one class, in my home or garden (weather permitting) or your home. Yoga for fatigue - an extremely gentle class that could help with stress or illness that has left you feeling fatiuged.
+		<a class="button" href="/classes">Find out more</a></p>
+
 	</div>
 	<img class="page-image column half right" src="images/fullSpinalTwist.png" title="Full Spinal Twist" alt=""/>
 	<div class="page-text"><?php printQuote() ?></div>
