@@ -27,13 +27,19 @@ a:hover {
 	color: #83DAEF;
 }
 #container {
-	width: 53.33em;
+	/* width: 53.33em; */
 	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 1.33em;
 	min-height: 100%;
 	position: relative;
 	box-sizing: border-box;
+}
+#header,
+#content {
+	width: 54em;
+	max-width: 100%;
+	margin: 0 auto;
 }
 #header {
 	position: relative;
