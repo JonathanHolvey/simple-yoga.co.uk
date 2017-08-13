@@ -10,5 +10,3 @@ RewriteRule ^(.*).php$ $1 [R=301,NC,L]
 # redirect to php files
 RewriteRule ^([^.]+)$ $1.php [NC,L]
 RewriteBase /
-
-php_value date.timezone "Europe/London"
