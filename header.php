@@ -1,6 +1,6 @@
 <div id="container">
 	<div id="header">
-		<a href="index"><img id="logo" src="images/logo.png" alt="Simple Yoga"/></a>
+		<a href=""><img id="logo" src="images/logo.png" alt="Simple Yoga"/></a>
 		<hr/>
 		<div id="navBar">
 			<a id="homeLink" href="">home</a>
