@@ -58,10 +58,12 @@ a:hover {
 	bottom: 0;
 	width: 100%;
 	background: url("images/background.jpg");
-	background-position: center;
+	background-position: bottom center;
 	height: 1.33em;
 	padding-top: 26.67em;
 	margin-left: -1.33em;
+	background-size: 54em;
+	background-repeat: repeat-x;
 	z-index: -1;
 }
 #footer {
