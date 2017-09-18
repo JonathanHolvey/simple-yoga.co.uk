@@ -76,14 +76,14 @@ a:hover {
 	left: 0;
 }
 #footer div {
-	opacity: 0.8;
 	display: inline-block;
 	padding: 0.3em 0;
-	border-radius: 1em;
+	border-radius: 0.3rem;
+	transition: background 0.3s;
 }
 #footer div:hover {
-	background: gray;
-	opacity: 1;
+	background: #BAB7AA;
+	background: rgba(186, 183, 170, 0.8);
 }
 #footer,
 #footer a {
