@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  web:
+    build:
+      context: ./web
+    container_name: simpleyoga-web
+    network_mode: bridge
+    environment:
+      VIRTUAL_HOST: local.simple-yoga.co.uk
