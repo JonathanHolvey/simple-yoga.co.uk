@@ -35,7 +35,7 @@ a:hover {
     /* width: 53.33em; */
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 1.33em;
+    padding: 0 2em;
     min-height: 100%;
     position: relative;
     box-sizing: border-box;
@@ -275,7 +275,7 @@ p.offer::after {
     text-align: center;
 }
 
-@media all and (max-width: 43.33em) {
+@media all and (max-width: 44em) {
     .page-text.column,
     .page-text {
         width: 100%;
@@ -292,5 +292,12 @@ p.offer::after {
 
     #header a {
         margin: 0 0.67em;
+    }
+}
+
+@media all and (max-width: 30em) {
+    #container {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
     }
 }
