@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>Simple Yoga</title>
-	<meta http-equiv="generator" content="Notepad++" />
 	<meta name="created" content="May 2011" />
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="description" content="Simple yoga with Laura Holvey is a flow of gentle stretching, relaxing, restoring postures, which help to reduce tension and improve suppleness and balance." />
