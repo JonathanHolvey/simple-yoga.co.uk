@@ -50,7 +50,7 @@ a:hover {
 	margin: 0 1em;
 }
 #content {
-	padding-bottom: 12em;
+	padding-bottom: 14em;
 	overflow: auto;
 }
 #footer-image {
@@ -124,7 +124,7 @@ hr {
 }
 .page-image  {
 	display: block;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 .column {
 	float: left;
@@ -219,7 +219,7 @@ p.offer::after {
 	background: #BAB7AA;
 	color: white;
 	text-align: center;
-	margin: 0.5em auto 1.5em;
+	margin: 1.5em auto 2em;
 	padding: 0.08em 0.5em;
 	/* border: 1.5px solid #AFAA99; */
 	border-radius: 0.3em;
@@ -232,6 +232,7 @@ p.offer::after {
 }
 .testimonial {
 	margin: 0 15%;
+    margin-top: 2em;
 	text-align: center;
 }
 
