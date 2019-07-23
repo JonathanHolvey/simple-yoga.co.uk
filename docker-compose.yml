@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: ./web
+    container_name: simpleyoga-web
+    network_mode: bridge
+    volumes:
+      - ./web:/opt/app
+    environment:
+      VIRTUAL_HOST: local.simple-yoga.co.uk
