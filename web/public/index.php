@@ -23,7 +23,7 @@
 		<h2>Yoga classes</h2>
 		<p><b>Limpley Stoke Village Hall</b> - First class only <b>&pound;5.00</b><br/>Wednesdays 9:30 to 11:00&nbsp;AM.</p>
 		<p><b>One to one class</b> in my home or garden (weather permitting) or your home. Yoga for fatigue - an extremely gentle class that could help with stress or illness that has left you feeling fatigued.
-		<a class="button" href="/classes">Find out more</a></p>
+		<a class="button" href="/classes">See more classes</a></p>
 
 	</div>
 

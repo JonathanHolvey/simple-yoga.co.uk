@@ -258,16 +258,15 @@ p.offer::after {
     color: white;
     text-align: center;
     margin: 1.5em auto 2em;
-    padding: 0.08em 0.5em;
-    /* border: 1.5px solid #AFAA99; */
+    padding: .4em 0.8em;
     border-radius: 0.3em;
-    font-style: italic;
     letter-spacing: 0.05em;
+    box-shadow: 0 0.2em 0.5em 0.1em rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
-    box-shadow: 0 0 0.5em 0.1em rgba(131, 218, 239, 0.8);
     color: white;
+    background: #AAA797;
 }
 
 .testimonial {
