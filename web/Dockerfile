@@ -1,4 +1,6 @@
-FROM php:apache
+FROM php:7-apache
+
+RUN a2enmod rewrite
 
 # Create symlink for public server root
 WORKDIR /opt/app
