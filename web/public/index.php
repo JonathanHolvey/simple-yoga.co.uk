@@ -15,7 +15,7 @@
 <body>
 	<?php include("header.php"); ?>
 	
-	<div class="page-text column half left">
+	<div class="page-text">
 		<h2>Gentle, relaxing, restoring</h2>
 		<p>Simple yoga is a flow of gentle stretching, relaxing, restoring postures. It helps to reduce tension, improve suppleness and balance, as well as increasing energy levels and strength.</p>
 		<p>Weaving yoga, energy and mindfulness techniques into each class, we always finish with a gentle nurturing relaxation.</p>
@@ -26,8 +26,25 @@
 		<a class="button" href="/classes">Find out more</a></p>
 
 	</div>
+
+	<div class="page-text column half left">
+		<h2>Simple Yoga helps you:</h2>
+		<ul>
+			<li>Stretch, tone and strengthen muscles</li>				
+			<li>Increase movement in your joints and spine</li>				
+			<li>Improve balance and posture</li>				
+			<li>Release tension in body and mind</li>
+		</ul>
+		<h2>Which helps you to:</h2>
+		<ul>
+			<li>Move freely</li>				
+			<li>Sleep better</li>				
+			<li>Feel inner calm</li>				
+			<li>Relax and enjoy life</li>
+		</ul>
+	</div>
 	<img class="page-image column half right" src="images/fullSpinalTwist.png" title="Full Spinal Twist" alt=""/>
-	<div class="page-text"><?php printQuote() ?></div>
+	<div class="text"><?php printQuote() ?></div>
 	
 	<?php include("footer.php"); ?>
 </body>
