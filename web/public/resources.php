@@ -5,4 +5,3 @@
 <!-- <script type="text/javascript" src="script/common.js"></script> -->
 <link rel="shortcut icon" href="images/favicon.ico?v=2"/>
 <?php include("script/common.php") ?>
-<base href="<?= findBase() ?>"/>
