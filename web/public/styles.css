@@ -168,6 +168,7 @@ hr {
     padding-right: 2em;
 }
 
+h1,
 h2,
 h3 {
     color: #83DAEF;
@@ -175,6 +176,11 @@ h3 {
     margin: 0;
     padding: 0;
     font-weight: normal;
+    margin-bottom: .5em;
+}
+
+h1 {
+    font-size: 200%;
 }
 
 h2 {
