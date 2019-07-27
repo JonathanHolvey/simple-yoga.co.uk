@@ -32,7 +32,7 @@
 			<meta itemprop="thumbnailUrl" content="https://heirloom-earth.com/bl-content/uploads/thumbnails/190224image.jpg">
 
 			<header>
-				<h1 itemprop="headline">Dasies</h1>
+				<h1 itemprop="headline">Daisies</h1>
 				<time itemprop="datePublished" datetime="2019-07-25 17:22:00">25 June 2019</time> - by Laura Holvey
 			</header>
 
