@@ -4,10 +4,14 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
 RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
 
-# remove .php file extensions
+# Remove .php file extensions
 RewriteCond %{THE_REQUEST} /(blog|classes|benefits|about|contact)\.php [NC]
 RewriteRule ^(.*).php$ $1 [R=301,NC,L]
 
-# redirect to php files
+# Temporary redirect to blog index
+RewriteCond %{THE_REQUEST} /blog/.+ [NC]
+RewriteRule ^ /blog [R=302,NC,L]
+
+# Redirect to php files
 RewriteRule ^([^.]+)$ $1.php [NC,L]
 RewriteBase /
