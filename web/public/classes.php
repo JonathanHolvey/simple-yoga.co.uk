@@ -18,7 +18,7 @@
 		<h2>Yoga class at Limpley Stoke Village Hall</h2>
 		<p>Come along for a weekly class in Limpley Stoke, from 9:30 to 11:00&nbsp;AM at the Village Hall, just off the A36 - <a href="https://www.google.com/maps/place/Limpley+Stoke+Village+Hall/@51.3445205,-2.3207854,15.5z/data=!4m6!1m3!3m2!1s0x0000000000000000:0xf2aa6ec9c03a336b!2sLimpley+Stoke+Village+Hall!3m1!1s0x0000000000000000:0xf2aa6ec9c03a336b">View map</a></p>
 		<p>We focus on improving suppleness and balance, reducing stress and increasing energy levels. The classes are easy to understand, allowing you to work at your own pace and ability.</p>
-		<p>Drop in classes are priced at <b>&pound;9.50</b>, while a course of four consecutive classes can be booked for only <b>&pound;32</b>. Please remember to bring along a mat or rug and a blanket. Call or email for more details.</p>
+		<p>Drop in classes are priced at <b>&pound;9.00</b>, while a course of four consecutive classes can be booked for only <b>&pound;32</b>. Please remember to bring along a mat or rug and a blanket. Call or email for more details.</p>
 		<p>Please note that parking can be found at the village hall and on the road nearby.</p>
 
 		<h2>Private Yoga Classes</h2>
