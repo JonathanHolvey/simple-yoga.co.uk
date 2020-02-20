@@ -1,12 +1,22 @@
-version: '3'
+version: '3.7'
+
+networks:
+  front:
+    external: true
+    name: proxy
 
 services:
   web:
     build:
       context: ./web
     container_name: simpleyoga-web
-    network_mode: bridge
+    networks:
+      - front
     volumes:
-      - ./web:/opt/app
+      - ./web:/home/node
+    ports:
+      - 35729:35729
+    env_file: .env
     environment:
       VIRTUAL_HOST: local.simple-yoga.co.uk
+      NODE_ENV: development

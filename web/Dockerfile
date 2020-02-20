@@ -1,12 +1,11 @@
-FROM php:7-apache
+FROM node:alpine
 
-RUN a2enmod rewrite
+WORKDIR /home/node
+COPY package*.json ./
+RUN npm install --prod
 
-# Create symlink for public server root
-WORKDIR /opt/app
-RUN mkdir ./public && \
-    rm -rf /var/www/html && \
-    ln -sf /opt/app/public /var/www/html
+COPY ./ ./
+RUN npm run build
 
-# Copy source
-COPY ./ ../app/
+EXPOSE 80
+CMD npm start
