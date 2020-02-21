@@ -4,6 +4,7 @@ networks:
   front:
     external: true
     name: proxy
+  back:
 
 services:
   web:
@@ -12,6 +13,7 @@ services:
     container_name: simpleyoga-web
     networks:
       - front
+      - back
     volumes:
       - ./web:/home/node
     ports:
@@ -20,3 +22,22 @@ services:
     environment:
       VIRTUAL_HOST: local.simple-yoga.co.uk
       NODE_ENV: development
+  cms:
+    build:
+      context: ./cms
+    container_name: simpleyoga-cms
+    networks:
+      - back
+    environment:
+      NODE_ENV: development
+      url: http://local.simple-yoga.co.uk
+      mail__transport: SMTP
+      mail__from: noreply@simpla-yoga.com
+      mail__options__host: ${SMTP_HOST}
+      mail__options__port: ${SMTP_PORT}
+      mail__options__auth__user: ${SMTP_USER}
+      mail__options__auth__pass: ${SMTP_PASSWORD}
+      mail__options__secureConnection: 'true'
+    volumes:
+      - ./cms/content/data:/var/lib/ghost/content/data
+      - ./cms/content/images:/var/lib/ghost/content/images
