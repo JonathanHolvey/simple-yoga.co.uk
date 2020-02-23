@@ -33,6 +33,13 @@ module.exports = (env, argv) => {
             'sass-loader',
           ],
         },
+        {
+          test: /\.woff2?/,
+          loader: 'file-loader',
+          options: {
+            outputPath: 'fonts',
+          }
+        }
       ],
     },
 
