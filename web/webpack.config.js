@@ -9,7 +9,7 @@ module.exports = (env, argv) => {
     watch: mode === 'development',
 
     entry: {
-      main: ['./assets/js/main.js', './assets/scss/main.scss'],
+      main: ['./src/js/main.js', './src/scss/main.scss'],
     },
 
     output: {
