@@ -1,0 +1,17 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+
+<main>
+    <h1>Blog</h1>
+    <ul>
+        <% for (post of posts) { %>
+            <li><article>
+                <h2><%- post.title %></h2>
+                <p><%- post.excerpt %></p>
+                <a href="<%- post.url %>">Read more</a>
+            </article></li>
+        <% } %>
+    </ul>
+</main>
+
+<%- include('partials/tail') %>
