@@ -1,6 +1,6 @@
 <nav class="nav-menu">
     <ul>
-        <% for (menu of Object.values(menus)) { %>
+        <% for (menu of Object.values(cms.settings.navigation)) { %>
             <li>
                 <a href="<%- menu.url %>"><%- menu.label %></a>
             </li>

@@ -1,15 +1,10 @@
 const cms = require('../api/cms')
 
 const controller = async (req, res) => {
-  const [page, settings] = await Promise.all([
-    cms.getPage('home'),
-    cms.getSettings(),
-  ])
+  const page = await cms.getPage('home')
 
-  console.log(page)
   res.render('home', {
     type: 'homepage',
-    menus: settings.navigation,
     page,
  })
 }
