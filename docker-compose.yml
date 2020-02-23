@@ -22,6 +22,8 @@ services:
     environment:
       VIRTUAL_HOST: local.simple-yoga.co.uk
       NODE_ENV: development
+      GHOST_API_URL: http://cms:2368
+      GHOST_API_KEY: ${GHOST_API_KEY}
   cms:
     build:
       context: ./cms
