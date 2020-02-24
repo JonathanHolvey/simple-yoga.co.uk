@@ -1,0 +1,20 @@
+@use '../abstracts/variables/text';
+@use '../abstracts/variables/grid';
+@use '../abstracts/variables/colours';
+
+body {
+  font-family: text.$font-primary;
+  line-height: grid.$gutter;
+  color: colours.$brown;
+}
+
+p {
+  margin-bottom: grid.$gutter;
+}
+
+h1 {
+  font-family: text.$font-secondary;
+  font-size: text.size(4);
+  line-height: 1.1;
+  color: colours.$dark-grey;
+}

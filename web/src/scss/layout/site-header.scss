@@ -1,0 +1,12 @@
+.site-header {
+  nav {
+    text-transform: lowercase;
+    ul {
+      display: flex;
+    }
+
+    li + li {
+      margin-left: 1em;
+    }
+  }
+}
