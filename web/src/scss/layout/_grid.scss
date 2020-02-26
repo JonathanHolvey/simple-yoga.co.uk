@@ -1,12 +1,30 @@
 @use '../abstracts/variables/grid';
 
-body > header,
-body > main,
-body > footer {
-  max-width: 650px;
-  margin: 0 auto;
+%site-grid {
+  display: grid;
+  grid-template-columns: 5% 10rem 1fr 15%;
+  gap: 2 * grid.$gutter;
+  max-width: grid.$max-width;
 }
 
-body > header {
-  max-width: 800px;
+.grid {
+  @extend %site-grid;
+
+  margin: grid.$gutter auto;
+  grid-template-areas: '.... .... main ....'
+                       '.... .... foot ....'
+  ;
+}
+
+.site-header {
+  position: fixed;
+}
+
+.site-content {
+  grid-area: main;
+  padding-top: 6rem;
+}
+
+.site-footer {
+  grid-area: foot;
 }
