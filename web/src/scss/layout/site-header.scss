@@ -1,12 +1,43 @@
+@use '../abstracts/variables/grid';
+@use '../abstracts/variables/colours';
+@use '../abstracts/variables/text';
+
 .site-header {
+  display: flex;
+  align-items: center;
+  margin-top: grid.$gutter;
+  margin-bottom: grid.$gutter;
+
   nav {
     text-transform: lowercase;
+    color: colours.$dark-grey;
+    font-size: text.size(2);
+    margin-top: .3rem;
+
     ul {
       display: flex;
     }
 
     li + li {
       margin-left: 1em;
+    }
+  }
+
+  .logo {
+    margin-right: grid.$gutter;
+
+    svg {
+      width: 10rem;
+    }
+  }
+
+  .masthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    svg {
+      width: 30rem;
     }
   }
 }

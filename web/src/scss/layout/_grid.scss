@@ -1,0 +1,12 @@
+@use '../abstracts/variables/grid';
+
+body > header,
+body > main,
+body > footer {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+body > header {
+  max-width: 800px;
+}
