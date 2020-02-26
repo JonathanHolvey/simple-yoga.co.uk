@@ -13,15 +13,30 @@ ul,
 ol {
   margin-bottom: .8 * grid.$gutter;
 
-  & + h1 {
+  & + h1,
+  & + h2,
+  & + h3 {
     margin-top: 1.5 * grid.$gutter;
   }
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: text.$font-secondary;
-  font-size: text.size(4);
-  line-height: 1.1;
   color: colours.$dark-grey;
+  line-height: 1.1;
   margin-bottom: .5 * grid.$gutter;
+}
+
+h1 {
+  font-size: text.size(4);
+}
+
+h2 {
+  font-size: text.size(3);
+}
+
+h3 {
+  font-size: text.size(2);
 }
