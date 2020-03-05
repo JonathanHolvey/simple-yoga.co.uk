@@ -11,18 +11,14 @@
   @extend %site-grid;
 
   margin: grid.$gutter auto;
-  grid-template-areas: '.... .... main ....'
+  grid-template-areas: '.... .... menu ....'
+                       '.... .... main ....'
                        '.... .... foot ....'
   ;
 }
 
-.site-header {
-  position: fixed;
-}
-
 .site-content {
   grid-area: main;
-  padding-top: 6rem;
 }
 
 .site-footer {

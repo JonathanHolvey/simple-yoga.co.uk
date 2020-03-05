@@ -1,0 +1,31 @@
+@use '../abstracts/variables/colours';
+@use '../abstracts/variables/text';
+
+.nav-menu {
+  text-transform: lowercase;
+  color: colours.$dark-grey;
+  font-size: text.size(1);
+  margin-top: .3rem;
+  background: colours.$light-grey;
+  padding: .5em 1.5em;
+  border-radius: 4em;
+  margin-bottom: auto;
+  margin-right: auto;
+
+  ul {
+    display: flex;
+    margin: 0;
+  }
+
+  li + li {
+    margin-left: 2em;
+  }
+
+  a {
+    transition: color 300ms;
+
+    &:hover {
+    color: colours.$blue;
+    }
+  }
+}

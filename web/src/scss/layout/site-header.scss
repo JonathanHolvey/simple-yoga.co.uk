@@ -1,54 +1,22 @@
 @use '../abstracts/variables/grid';
-@use '../abstracts/variables/colours';
-@use '../abstracts/variables/text';
 
-.site-header {
+.site-logo {
   @extend %site-grid;
-
+  grid-template-areas: '.... logo .... ....';
+  position: fixed;
   width: 100%;
-  grid-template-areas: '.... logo menu ....';
 
-  nav {
-    text-transform: lowercase;
-    color: colours.$dark-grey;
-    font-size: text.size(1);
-    margin-top: .3rem;
-    background: colours.$light-grey;
-    padding: .5em 1.5em;
-    border-radius: 4em;
-    margin-bottom: auto;
-    margin-right: auto;
-    box-shadow: 0 .2rem 1.5rem .5rem colours.$white;
-
-    ul {
-      display: flex;
-      margin: 0;
-    }
-
-    li + li {
-      margin-left: 2em;
-    }
-
-    a {
-      transition: color 300ms;
-
-      &:hover {
-        color: colours.$blue;
-      }
-    }
-  }
-
-  .logo {
+  > a {
     grid-area: logo;
 
     svg {
       width: 100%;
     }
   }
+}
 
-  .nav-menu {
-    grid-area: menu;
-    position: relative;
-    top: 1rem;
-  }
+.nav-menu {
+  grid-area: menu;
+  position: relative;
+  top: .5rem;
 }
