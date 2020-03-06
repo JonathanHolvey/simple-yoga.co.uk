@@ -40,3 +40,19 @@ h2 {
 h3 {
   font-size: text.size(2);
 }
+
+.site-content ul > li {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: .35em;
+    height: .35em;
+    position: absolute;
+    top: .6em;
+    left: -1.1em;
+    border-radius: 50%;
+    background: colours.$blue;
+  }
+}
