@@ -10,10 +10,11 @@
 .grid {
   @extend %site-grid;
 
-  margin: grid.$gutter auto;
+  margin: grid.$gutter auto 0;
+  min-height: calc(100vh - #{grid.$gutter});
   grid-template-areas: '.... .... menu ....'
                        '.... .... main ....'
-                       '.... .... foot ....'
+                       'foot foot foot foot'
   ;
 }
 

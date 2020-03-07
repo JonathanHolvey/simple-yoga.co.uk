@@ -1,0 +1,23 @@
+@use '../abstracts/variables/colours';
+
+.footer-links {
+  li {
+    position: relative;
+  }
+
+  .icon {
+    position: absolute;
+    top: .2rem;
+    right: 100%;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+    display: flex;
+    justify-content: center;
+
+    svg {
+      fill: colours.$blue;
+      height: 100%;
+    }
+  }
+}

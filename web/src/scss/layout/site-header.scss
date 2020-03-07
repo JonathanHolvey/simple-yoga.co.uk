@@ -1,3 +1,4 @@
+@use '../abstracts/variables/colours';
 @use '../abstracts/variables/grid';
 
 .site-logo {
@@ -11,6 +12,26 @@
 
     svg {
       width: 100%;
+
+      .centre {
+        fill: colours.$yellow;
+      }
+
+      .petal-a {
+        fill: colours.$light-grey;
+      }
+
+      .petal-b {
+        fill: colours.$mid-grey;
+      }
+
+      .simple {
+        fill: colours.$blue;
+      }
+
+      .yoga {
+        fill: colours.$brown;
+      }
     }
   }
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 10 6.608" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
+  <defs>
+    <linearGradient id="linearGradient1296" gradientTransform="matrix(.006887 0 0 .006887 115.1 -673.8)" osb:paint="solid">
+      <stop stop-color="#4cb5dd" offset="0"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-3.267e-6 -290.4)">
+    <g transform="matrix(.7961 0 0 .7961 -119.6 -70.05)" stroke-width="1.256">
+      <path d="m151.3 452.7c-0.5236 0-0.9588 0.3467-1.103 0.8219l6.226 4.609 6.226-4.61c-0.1448-0.4743-0.5802-0.8204-1.103-0.8204zm-1.158 1.719v5.423c0 0.6417 0.516 1.158 1.158 1.158h10.25c0.6417 0 1.158-0.516 1.158-1.158v-5.423l-6.28 4.651z"/>
+    </g>
+  </g>
+</svg>
