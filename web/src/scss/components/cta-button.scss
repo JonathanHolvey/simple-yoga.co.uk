@@ -1,15 +1,20 @@
 @use 'sass:color';
 @use '../abstracts/variables/colours';
+@use '../abstracts/variables/text';
 
 %button {
   display: inline-block;
   background: colours.$blue;
   color: colours.$light-grey;
   text-transform: uppercase;
-  padding: .6em 1.5em .5em;
-  border-radius: 5em;
+  padding: .7rem 1.5rem .6rem;
+  border-radius: 5rem;
   transition: background-color 300ms, transform 300ms;
   position: relative;
+  font-size: text.size(0);
+  line-height: 1;
+  border: 0;
+  min-width: 8rem;
 
   &::after {
     box-shadow: 0 .2rem .5rem colours.$dark-grey;
@@ -34,15 +39,14 @@
   }
 }
 
-*:not(p) > a.cta-button,
-p:not(.cta-button) > a.cta-button {
+:not(p).cta-button {
   @extend %button;
 }
 
 p.cta-button {
   text-align: center;
 
-  > a {
+  > * {
     @extend %button;
   }
 }
