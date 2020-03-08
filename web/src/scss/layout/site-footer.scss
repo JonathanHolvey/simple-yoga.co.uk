@@ -1,0 +1,48 @@
+@use '../abstracts/variables/grid';
+@use '../abstracts/variables/colours';
+@use '../abstracts/variables/text';
+
+.site-footer {
+  @extend %site-grid;
+  grid-template-areas: '.... .... foot ....';
+  background: colours.$light-grey;
+  overflow: hidden;
+
+  > .container {
+    position: relative;
+    grid-area: foot;
+    padding: grid.$gutter 0;
+  }
+
+  .footer-links {
+    margin-bottom: .5rem;
+  }
+
+  .copyright {
+    font-size: text.size(-1);
+    color: colours.$dark-grey;
+    margin-bottom: -.5rem;
+  }
+
+  .logo {
+    position: absolute;
+    width: 14rem;
+    top: grid.$gutter;
+    right: grid.$gutter;
+    opacity: .8;
+
+    svg {
+      .centre {
+        fill: colours.$yellow;
+      }
+
+      .petal-a {
+        fill: colours.$white;
+      }
+
+      .petal-b {
+        fill: colours.$mid-grey;
+      }
+    }
+  }
+}

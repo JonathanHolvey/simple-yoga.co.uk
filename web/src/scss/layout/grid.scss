@@ -1,0 +1,26 @@
+@use '../abstracts/variables/grid';
+
+%site-grid {
+  display: grid;
+  grid-template-columns: 5% 10rem 1fr 15%;
+  gap: 2 * grid.$gutter;
+  max-width: grid.$max-width;
+}
+
+.grid {
+  @extend %site-grid;
+
+  margin: grid.$gutter auto 0;
+  grid-template-areas: '.... .... menu ....'
+                       '.... .... main ....'
+                       'foot foot foot foot'
+  ;
+}
+
+main {
+  grid-area: main;
+}
+
+.site-footer {
+  grid-area: foot;
+}

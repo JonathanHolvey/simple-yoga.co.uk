@@ -1,0 +1,13 @@
+@use '../functions';
+
+$size-default: 19px;
+$size-mobile: 14px;
+$scale-ratio: 1.2;
+
+$font-primary: cabin;
+$font-secondary: 'Century Gothic';
+
+@function size($scale) {
+  $size: functions.pow($scale-ratio, $scale);
+  @return #{$size + 'rem'}
+}

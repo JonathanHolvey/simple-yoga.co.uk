@@ -1,12 +1,45 @@
-version: '3'
+version: '3.7'
+
+networks:
+  front:
+    external: true
+    name: proxy
+  back:
 
 services:
   web:
     build:
       context: ./web
     container_name: simpleyoga-web
-    network_mode: bridge
+    networks:
+      - front
+      - back
     volumes:
-      - ./web:/opt/app
+      - ./web:/home/node
+    ports:
+      - 35729:35729
+    env_file: .env
     environment:
       VIRTUAL_HOST: local.simple-yoga.co.uk
+      NODE_ENV: development
+      GHOST_API_URL: http://cms:2368
+      GHOST_API_KEY: ${GHOST_API_KEY}
+  cms:
+    build:
+      context: ./cms
+    container_name: simpleyoga-cms
+    networks:
+      - back
+    environment:
+      NODE_ENV: development
+      url: http://local.simple-yoga.co.uk
+      mail__transport: SMTP
+      mail__from: noreply@simpla-yoga.com
+      mail__options__host: ${SMTP_HOST}
+      mail__options__port: ${SMTP_PORT}
+      mail__options__auth__user: ${SMTP_USER}
+      mail__options__auth__pass: ${SMTP_PASSWORD}
+      mail__options__secureConnection: 'true'
+    volumes:
+      - ./cms/content/data:/var/lib/ghost/content/data
+      - ./cms/content/images:/var/lib/ghost/content/images

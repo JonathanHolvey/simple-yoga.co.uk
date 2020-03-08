@@ -1,0 +1,29 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+
+<main itemscope itemtype="https://schema.org/Organization">
+    <meta itemprop="name" content="Simple Yoga">
+    <meta itemprop="image" content="/img/logo.svg">
+    <meta itemprop="mainEntityOfPage" content="https://simple-yoga.co.uk">
+
+    <article class="site-content">
+        <%- page.html %>
+        <form id="contact-form">
+            <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </div>
+            <div class="form-field">
+                <label for="message">Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send</button>
+        </form>
+    </article>
+</main>
+
+<%- include('partials/tail') %>

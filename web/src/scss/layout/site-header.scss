@@ -1,0 +1,43 @@
+@use '../abstracts/variables/colours';
+@use '../abstracts/variables/grid';
+
+.site-logo {
+  @extend %site-grid;
+  grid-template-areas: '.... logo .... ....';
+  position: fixed;
+  width: 100%;
+
+  > a {
+    grid-area: logo;
+
+    svg {
+      width: 100%;
+
+      .centre {
+        fill: colours.$yellow;
+      }
+
+      .petal-a {
+        fill: colours.$light-grey;
+      }
+
+      .petal-b {
+        fill: colours.$mid-grey;
+      }
+
+      .simple {
+        fill: colours.$blue;
+      }
+
+      .yoga {
+        fill: colours.$brown;
+      }
+    }
+  }
+}
+
+.nav-menu {
+  grid-area: menu;
+  position: relative;
+  top: .5rem;
+}

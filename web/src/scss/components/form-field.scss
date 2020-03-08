@@ -1,0 +1,50 @@
+@use 'sass:color';
+@use '../abstracts/variables/colours';
+@use '../abstracts/variables/text';
+
+.form-field {
+  position: relative;
+
+  > * {
+    vertical-align: top;
+
+    &:not(:last-child) {
+      margin-top: .5rem;
+    }
+  }
+
+  label {
+    display: block;
+    position: absolute;
+    right: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: .8rem;
+    width: 6em;
+  } 
+
+  input[type='text'],
+  textarea {
+    padding: .6rem 1rem .5rem;
+    border-radius: 1.5rem;
+    border: 1px solid colours.$mid-grey;
+    background: colours.$light-grey;
+    font-size: text.size(0);
+    color: colours.$brown;
+    font-family: text.$font-primary;
+    width: 20rem;
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 .3rem color.adjust(colours.$blue, $lightness: -15%);
+    }
+  }
+
+  textarea {
+    min-height: 8em;
+  }
+}
+
+form .form-field {
+  margin-bottom: .8rem;
+}
