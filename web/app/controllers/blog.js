@@ -1,4 +1,5 @@
 const cms = require('../api/cms')
+const dateFormat = require('dateformat')
 
 const post = async (req, res, next) => {
   const post = await cms.getPost(req.params.slug)
@@ -16,7 +17,7 @@ const post = async (req, res, next) => {
 const posts = async (req, res) => {
   const posts = await cms.getPosts()
   res.render('posts', {
-    type: 'post-list',
+    type: 'posts',
     posts,
   })
 }

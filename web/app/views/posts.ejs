@@ -1,15 +1,27 @@
 <%- include('partials/head') %>
 <%- include('partials/header') %>
 
-<main class="site-content">
-    <h1>Blog</h1>
-    <ul>
+<main>
+    <ul class="post-list">
         <% for (post of posts) { %>
-            <li><article>
-                <h2><%- post.title %></h2>
-                <p><%- post.excerpt %></p>
-                <a href="<%- post.url %>">Read more</a>
-            </article></li>
+            <li><a href="<%- post.url %>">
+                <article class="post-preview">
+                    <h1><%- post.title %></h1>
+                    <div>
+                        <div class="image">
+                            <% if (post.feature_image) { %>
+                                <img src="<%= post.feature_image %>">
+                            <% } else { %>
+                                <%- include('./assets/logo.svg') %>
+                            <% } %>
+                        </div>
+                        <div>
+                            <p><%- post.excerpt.slice(0, 250) %>...</p>
+                            <div class="meta"><%- format.date(post.published_at) %></div>
+                        </div>
+                    </div>
+                </article>
+            </a></li>
         <% } %>
     </ul>
 </main>
